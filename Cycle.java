@@ -20,11 +20,11 @@ class Test{
         Unicycle uni= new Unicycle();
         Bicycle bi=new Bicycle();
         Tricycle tri=new Tricycle();
-        Cycle[] cy=new Cycle[3];
-        cy[0]=uni;
-        cy[1]=bi;
-        cy[2]=tri;
-        for(Cycle c:cy){
+        Cycle[] cycles=new Cycle[3];
+        cycles[0]=uni;
+        cycles[1]=bi;
+        cycles[2]=tri;
+        for(Cycle c:cycles){
             c.balance();
         }
         uni.balance();
