@@ -42,14 +42,14 @@ class Hamster extends Rodent{
 }
 class Main{
     public static void main(String a[]){
-        Rodent arr[]=new Rodent[4];
-        arr[0]=new Mouse();
-        arr[1]=new Gerbil();
-        arr[2]=new Mouse();
-        arr[3]=new Hamster();
-        arr[0].eats();
-        arr[1].colour();
-        arr[2].eats();
-        arr[3].colour();
+        Rodent rodents_array[]=new Rodent[4];
+        rodents_array[0]=new Mouse();
+        rodents_array[1]=new Gerbil();
+        rodents_array[2]=new Mouse();
+        rodents_array[3]=new Hamster();
+        rodents_array[0].eats();
+        rodents_array[1].colour();
+        rodents_array[2].eats();
+        rodents_array[3].colour();
     }
 }
