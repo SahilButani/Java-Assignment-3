@@ -70,3 +70,13 @@ public class Ping
 
     }
 }
+
+/*
+OUTPUT:
+Enter the host ip
+8.8.8.8
+Enter the number of times the server to be pinged
+5
+
+The median is 50.2 ms
+*/
